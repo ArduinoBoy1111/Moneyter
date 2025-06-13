@@ -1,0 +1,21 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+body {
+    background-color: rgb(248, 248, 248);
+}
+
+.full-page {
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Optional: center vertically */
+}
+.centered-box {
+    display: flex;
+    align-items: center;        /* vertical centering */
+    justify-content: center;    /* horizontal centering */
+    height: 10vh;               /* fixed height for the box */
+    border: 2px dashed rgb(255, 23, 23); /* red dashed border */
+}
